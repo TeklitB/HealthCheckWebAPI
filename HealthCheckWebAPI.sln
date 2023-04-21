@@ -5,6 +5,13 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthCheckWebAPI", "HealthCheckWebAPI\HealthCheckWebAPI.csproj", "{882A6381-ECEA-4D89-97A1-24084862428B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{B14E8AAA-0760-4B7A-9505-FFE0A25487F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{0C03E4AF-E59E-4188-9A10-30CC2207DDF9}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\webapi-workflow.yml = .github\workflows\webapi-workflow.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +25,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C03E4AF-E59E-4188-9A10-30CC2207DDF9} = {B14E8AAA-0760-4B7A-9505-FFE0A25487F9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6DB7634F-CA6E-4DF8-8B6F-BE46D5E37595}
